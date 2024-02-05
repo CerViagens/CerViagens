@@ -425,6 +425,10 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 
+.whats-button{
+  width: max-content;
+}
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -486,6 +490,11 @@ section {
   width: auto;
 } 
 
+#disclaimer h3{
+  color: #fb7400;
+}
+
+
 @media screen and (max-width:991px) {
   #disclaimer{
     margin-right: -20px;
@@ -546,6 +555,13 @@ section {
 @media screen and (max-width:991px) {
   .next-trip{
     margin-right: -19px;
+  }
+  .next-trip h1{
+    font-size: xx-large;
+  }
+  .next-trip h4{
+    line-height: 2.0rem;
+    font-size: large;
   }
 }
 
@@ -624,6 +640,14 @@ section {
     }
 }
 
+.footer-links h3{
+  font-size: x-large;
+}
+
+.footer-links h2{
+  font-size: x-large;
+}
+
 #footer {
   font-size: 14px;
 }
@@ -632,7 +656,7 @@ section {
   margin-top: -1.5rem !important;
 }
 
-#footer h3 {
+#footer h2 ,h3 {
   color: #00007d;
 }
 
